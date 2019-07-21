@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "仿嗅事百科",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#4CD964"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "小动态",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#4CD964"
+			}
+		},
+		{
+			"path": "pages/paper/paper",
+			"style": {
+				"navigationBarTitleText": "新闻",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#4CD964"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "仿嗅事百科",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#4CD964"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "仿嗅事百科",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#B5B5B5",
+		"selectedColor":"#FEE94E",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"#ABABAB",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"糗事",
+				"iconPath":"/static/tabbar/index.png",
+				"selectedIconPath":"/static/tabbar/indexed.png"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"动态",
+				"iconPath":"static/tabbar/news.png",
+				"selectedIconPath":"static/tabbar/newsed.png"
+			},
+			{
+				"pagePath":"pages/paper/paper",
+				"text":"小纸条",
+				"iconPath":"static/tabbar/paper.png",
+				"selectedIconPath":"static/tabbar/papered.png"
+			},
+			{
+				"pagePath":"pages/home/home",
+				"text":"我的",
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/homeed.png"
+			}
+		]
+		
+	}
+}
