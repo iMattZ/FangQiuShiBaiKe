@@ -3,9 +3,43 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "仿嗅事百科",
-				"navigationBarTextStyle":"white",
-				"navigationBarBackgroundColor":"#4CD964"
+				"app-plus":{
+					"scrollIndicator":"none",  //隐藏滚动条
+					"titleNView":{
+						// 配置搜索框
+						"searchInput":{
+							"backgroundColor":"#FFFFFF",
+							"borderRadius":"4px",
+							"placeholder":"搜索糗事",
+							"placeholderColor":"#CCCCCC",
+							"disabled":false
+						},
+						
+						// 配置左右按钮
+						"buttons":[
+							// 左边
+							{
+								"color":"#FF961A",
+								"colorPressed":"#BBBBBB",
+								"float":"left",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue609"
+								
+							},
+							// 右边
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue653"
+								
+							}
+						]
+					}
+				}
 			}
 		},
 		{
